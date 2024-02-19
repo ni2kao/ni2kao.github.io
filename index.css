@@ -1,0 +1,51 @@
+*{
+    background-color: #f4e4c9;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #311E0F;
+}  
+
+h1{
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    margin-top: -50px;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar a{
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nav-left{
+    float: left;
+}
+.nav-center{
+    display: inline-block;
+    position: relative;
+}
+
+.nav-center{
+    width: 50%;
+}
+
+.nav-right{
+    float: right;
+    text-align: end;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#634b39;
+    cursor: pointer;
+}
